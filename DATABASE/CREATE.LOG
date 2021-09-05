@@ -1,0 +1,815 @@
+执行文件:D:\夏令营\最终项目\TeamWork2\030.编码\010.源代码\DATABASE\Table\Create_Table.sql
+127.0.0.1:1521/orcl
+
+SQL*Plus: Release 11.2.0.4.0 Production on 星期日 9月 5 13:18:57 2021
+
+Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+
+
+连接到: 
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> @Table\Create_Table.sql
+SQL> /*==============================================================*/
+SQL> /* DBMS name:	ORACLE Version 10gR2			     */
+SQL> /* Created on:	2021/8/31 10:38:12			     */
+SQL> /*==============================================================*/
+SQL> delete from qrtz_fired_triggers;
+delete from qrtz_fired_triggers
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_simple_triggers;
+delete from qrtz_simple_triggers
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_simprop_triggers;
+delete from qrtz_simprop_triggers
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_cron_triggers;
+delete from qrtz_cron_triggers
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_blob_triggers;
+delete from qrtz_blob_triggers
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_triggers;
+delete from qrtz_triggers
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_job_details;
+delete from qrtz_job_details
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_calendars;
+delete from qrtz_calendars
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_paused_trigger_grps;
+delete from qrtz_paused_trigger_grps
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_locks;
+delete from qrtz_locks
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> delete from qrtz_scheduler_state;
+delete from qrtz_scheduler_state
+            *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table qrtz_calendars;
+drop table qrtz_calendars
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_fired_triggers;
+drop table qrtz_fired_triggers
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_blob_triggers;
+drop table qrtz_blob_triggers
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_cron_triggers;
+drop table qrtz_cron_triggers
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_simple_triggers;
+drop table qrtz_simple_triggers
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_simprop_triggers;
+drop table qrtz_simprop_triggers
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_triggers;
+drop table qrtz_triggers
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_job_details;
+drop table qrtz_job_details
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_paused_trigger_grps;
+drop table qrtz_paused_trigger_grps
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_locks;
+drop table qrtz_locks
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> drop table qrtz_scheduler_state;
+drop table qrtz_scheduler_state
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table MI_CHINA_INDEX cascade constraints;
+drop table MI_CHINA_INDEX cascade constraints
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table MI_HK_CAPITAL cascade constraints;
+drop table MI_HK_CAPITAL cascade constraints
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table MI_IPO_CALENDAR cascade constraints;
+drop table MI_IPO_CALENDAR cascade constraints
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table MI_PLATE_CAPITAL cascade constraints;
+drop table MI_PLATE_CAPITAL cascade constraints
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table MI_REPTILE_RECORD cascade constraints;
+drop table MI_REPTILE_RECORD cascade constraints
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table MI_SCHEDULE_TASK cascade constraints;
+drop table MI_SCHEDULE_TASK cascade constraints
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop table MI_SECURITIES_EXPRESS cascade constraints;
+drop table MI_SECURITIES_EXPRESS cascade constraints
+           *
+第 1 行出现错误:
+ORA-00942: 表或视图不存在
+
+
+SQL> 
+SQL> drop sequence SEQ_BULLETIN_ID;
+
+序列已删除。
+
+SQL> 
+SQL> drop sequence SEQ_REPTILE_RECORD_ID;
+
+序列已删除。
+
+SQL> 
+SQL> drop sequence SEQ_SCHEDULED_ID;
+
+序列已删除。
+
+SQL> 
+SQL> create sequence SEQ_BULLETIN_ID
+  2  increment by 1
+  3  start with 1
+  4   nomaxvalue
+  5   minvalue 1
+  6   nocache;
+
+序列已创建。
+
+SQL> 
+SQL> create sequence SEQ_REPTILE_RECORD_ID
+  2  increment by 1
+  3  start with 1
+  4   nomaxvalue
+  5   minvalue 1
+  6   nocache;
+
+序列已创建。
+
+SQL> 
+SQL> create sequence SEQ_SCHEDULED_ID
+  2  increment by 1
+  3  start with 1
+  4   nomaxvalue
+  5   minvalue 1
+  6   nocache;
+
+序列已创建。
+
+SQL> 
+SQL> /*==============================================================*/
+SQL> /* Table: MI_CHINA_INDEX					     */
+SQL> /*==============================================================*/
+SQL> create table MI_CHINA_INDEX  (
+  2  	INDEX_NAME	     VARCHAR2(50)		     not null,
+  3  	LATEST_PRICE	     NUMBER(7,2),
+  4  	constraint PK_MI_CHINA_INDEX primary key (INDEX_NAME)
+  5  );
+
+表已创建。
+
+SQL> 
+SQL> comment on table MI_CHINA_INDEX is
+  2  '中国指数';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_CHINA_INDEX.INDEX_NAME is
+  2  '指数名称';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_CHINA_INDEX.LATEST_PRICE is
+  2  '最新价';
+
+注释已创建。
+
+SQL> 
+SQL> /*==============================================================*/
+SQL> /* Table: MI_HK_CAPITAL					     */
+SQL> /*==============================================================*/
+SQL> create table MI_HK_CAPITAL  (
+  2  	PLATE_NAME	     VARCHAR2(100)		     not null,
+  3  	NET_CASH_INFLOW      NUMBER(10,2),
+  4  	CURRENT_BALANCE      NUMBER(10,2),
+  5  	CURRENT_BALANCE_LIMIT NUMBER(10,2),
+  6  	constraint PK_MI_HK_CAPITAL primary key (PLATE_NAME)
+  7  );
+
+表已创建。
+
+SQL> 
+SQL> comment on table MI_HK_CAPITAL is
+  2  '港股通资金流';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_HK_CAPITAL.PLATE_NAME is
+  2  '板块名称';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_HK_CAPITAL.NET_CASH_INFLOW is
+  2  '现金净流入';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_HK_CAPITAL.CURRENT_BALANCE is
+  2  '当日资金余额';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_HK_CAPITAL.CURRENT_BALANCE_LIMIT is
+  2  '当日资金限额';
+
+注释已创建。
+
+SQL> 
+SQL> /*==============================================================*/
+SQL> /* Table: MI_IPO_CALENDAR					     */
+SQL> /*==============================================================*/
+SQL> create table MI_IPO_CALENDAR  (
+  2  	SECURITIES_ABBR      VARCHAR2(100)		     not null,
+  3  	LISTING_DATE	     DATE,
+  4  	constraint PK_MI_IPO_CALENDAR primary key (SECURITIES_ABBR)
+  5  );
+
+表已创建。
+
+SQL> 
+SQL> comment on table MI_IPO_CALENDAR is
+  2  '新股上市日历';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_IPO_CALENDAR.SECURITIES_ABBR is
+  2  '证券简称';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_IPO_CALENDAR.LISTING_DATE is
+  2  '上市日期';
+
+注释已创建。
+
+SQL> 
+SQL> /*==============================================================*/
+SQL> /* Table: MI_PLATE_CAPITAL 				     */
+SQL> /*==============================================================*/
+SQL> create table MI_PLATE_CAPITAL  (
+  2  	PLATE_NAME	     VARCHAR2(50)		     not null,
+  3  	CURRENT_STATUS	     NUMBER(5,2),
+  4  	constraint PK_MI_PLATE_CAPITAL primary key (PLATE_NAME)
+  5  );
+
+表已创建。
+
+SQL> 
+SQL> comment on table MI_PLATE_CAPITAL is
+  2  '板块资金流今日跌涨幅';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_PLATE_CAPITAL.PLATE_NAME is
+  2  '板块名称';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_PLATE_CAPITAL.CURRENT_STATUS is
+  2  '当日涨跌幅 ';
+
+注释已创建。
+
+SQL> 
+SQL> /*==============================================================*/
+SQL> /* Table: MI_REPTILE_RECORD				     */
+SQL> /*==============================================================*/
+SQL> create table MI_REPTILE_RECORD	(
+  2  	REPTILE_RECORD_ID    NUMBER(10) 		     not null,
+  3  	REPTILE_DESCRIPTION  VARCHAR2(100),
+  4  	REPTILE_ADDRESS      VARCHAR2(300),
+  5  	REPTILE_START	     TIMESTAMP,
+  6  	REPTILE_END	     TIMESTAMP,
+  7  	REPTILE_TABLE	     VARCHAR2(50),
+  8  	REPTILE_ID	     NUMBER(8),
+  9  	constraint PK_MI_REPTILE_RECORD primary key (REPTILE_RECORD_ID)
+ 10  );
+
+表已创建。
+
+SQL> 
+SQL> comment on table MI_REPTILE_RECORD is
+  2  '爬虫记录';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_REPTILE_RECORD.REPTILE_RECORD_ID is
+  2  '爬虫记录id';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_REPTILE_RECORD.REPTILE_DESCRIPTION is
+  2  '爬虫行为说明';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_REPTILE_RECORD.REPTILE_ADDRESS is
+  2  '爬虫地址';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_REPTILE_RECORD.REPTILE_START is
+  2  '爬虫开始时间';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_REPTILE_RECORD.REPTILE_END is
+  2  '爬虫结束时间';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_REPTILE_RECORD.REPTILE_TABLE is
+  2  '爬虫数据表  获取出来爬取的数据表的名称';
+
+注释已创建。
+
+SQL> 
+SQL> /*==============================================================*/
+SQL> /* Table: MI_SCHEDULE_TASK 				     */
+SQL> /*==============================================================*/
+SQL> create table MI_SCHEDULE_TASK  (
+  2  	REPTILE_ID	     NUMBER(8)			     not null,
+  3  	REPTILE_NAME	     VARCHAR2(20),
+  4  	SCHEDULE_DESCRIPTION VARCHAR2(100),
+  5  	THREAD_NUMBER	     NUMBER(2),
+  6  	SCHEDULE_FLAG	     NUMBER(1),
+  7  	CRON_TAB	     VARCHAR2(100),
+  8  	constraint PK_MI_SCHEDULE_TASK primary key (REPTILE_ID)
+  9  );
+
+表已创建。
+
+SQL> 
+SQL> comment on table MI_SCHEDULE_TASK is
+  2  '爬虫表（定时任务使用）';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SCHEDULE_TASK.REPTILE_ID is
+  2  '爬虫id';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SCHEDULE_TASK.REPTILE_NAME is
+  2  '爬虫名称';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SCHEDULE_TASK.SCHEDULE_DESCRIPTION is
+  2  '描述';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SCHEDULE_TASK.THREAD_NUMBER is
+  2  '线程数';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SCHEDULE_TASK.SCHEDULE_FLAG is
+  2  '是否开启定时任务 0表示不开启 1表示开启 ';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SCHEDULE_TASK.CRON_TAB is
+  2  'cornTab表达式';
+
+注释已创建。
+
+SQL> 
+SQL> /*==============================================================*/
+SQL> /* Table: MI_SECURITIES_EXPRESS				     */
+SQL> /*==============================================================*/
+SQL> create table MI_SECURITIES_EXPRESS  (
+  2  	BULLETIN_ID	     NUMBER(20) 		     not null,
+  3  	BULLETIN_TYPE	     NUMBER(1),
+  4  	BULLETIN_TITLE	     VARCHAR2(100),
+  5  	constraint PK_MI_SECURITIES_EXPRESS primary key (BULLETIN_ID)
+  6  );
+
+表已创建。
+
+SQL> 
+SQL> comment on table MI_SECURITIES_EXPRESS is
+  2  '证券快讯';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SECURITIES_EXPRESS.BULLETIN_ID is
+  2  '主键id';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SECURITIES_EXPRESS.BULLETIN_TYPE is
+  2  '快讯类型	3为信息，1为提示';
+
+注释已创建。
+
+SQL> 
+SQL> comment on column MI_SECURITIES_EXPRESS.BULLETIN_TITLE is
+  2  '快讯标题';
+
+注释已创建。
+
+SQL> 
+SQL> CREATE TABLE qrtz_job_details
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    JOB_NAME  VARCHAR2(200) NOT NULL,
+  5    JOB_GROUP VARCHAR2(200) NOT NULL,
+  6    DESCRIPTION VARCHAR2(250) NULL,
+  7    JOB_CLASS_NAME	VARCHAR2(250) NOT NULL,
+  8    IS_DURABLE VARCHAR2(1) NOT NULL,
+  9    IS_NONCONCURRENT VARCHAR2(1) NOT NULL,
+ 10    IS_UPDATE_DATA VARCHAR2(1) NOT NULL,
+ 11    REQUESTS_RECOVERY VARCHAR2(1) NOT NULL,
+ 12    JOB_DATA BLOB NULL,
+ 13    CONSTRAINT QRTZ_JOB_DETAILS_PK PRIMARY KEY (SCHED_NAME,JOB_NAME,JOB_GROUP)
+ 14  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_triggers
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    TRIGGER_NAME VARCHAR2(200) NOT NULL,
+  5    TRIGGER_GROUP VARCHAR2(200) NOT NULL,
+  6    JOB_NAME  VARCHAR2(200) NOT NULL,
+  7    JOB_GROUP VARCHAR2(200) NOT NULL,
+  8    DESCRIPTION VARCHAR2(250) NULL,
+  9    NEXT_FIRE_TIME NUMBER(13) NULL,
+ 10    PREV_FIRE_TIME NUMBER(13) NULL,
+ 11    PRIORITY NUMBER(13) NULL,
+ 12    TRIGGER_STATE VARCHAR2(16) NOT NULL,
+ 13    TRIGGER_TYPE VARCHAR2(8) NOT NULL,
+ 14    START_TIME NUMBER(13) NOT NULL,
+ 15    END_TIME NUMBER(13) NULL,
+ 16    CALENDAR_NAME VARCHAR2(200) NULL,
+ 17    MISFIRE_INSTR NUMBER(2) NULL,
+ 18    JOB_DATA BLOB NULL,
+ 19    CONSTRAINT QRTZ_TRIGGERS_PK PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+ 20    CONSTRAINT QRTZ_TRIGGER_TO_JOBS_FK FOREIGN KEY (SCHED_NAME,JOB_NAME,JOB_GROUP)
+ 21  	 REFERENCES QRTZ_JOB_DETAILS(SCHED_NAME,JOB_NAME,JOB_GROUP)
+ 22  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_simple_triggers
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    TRIGGER_NAME VARCHAR2(200) NOT NULL,
+  5    TRIGGER_GROUP VARCHAR2(200) NOT NULL,
+  6    REPEAT_COUNT NUMBER(7) NOT NULL,
+  7    REPEAT_INTERVAL NUMBER(12) NOT NULL,
+  8    TIMES_TRIGGERED NUMBER(10) NOT NULL,
+  9    CONSTRAINT QRTZ_SIMPLE_TRIG_PK PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+ 10    CONSTRAINT QRTZ_SIMPLE_TRIG_TO_TRIG_FK FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+ 11    REFERENCES QRTZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+ 12  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_cron_triggers
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    TRIGGER_NAME VARCHAR2(200) NOT NULL,
+  5    TRIGGER_GROUP VARCHAR2(200) NOT NULL,
+  6    CRON_EXPRESSION VARCHAR2(120) NOT NULL,
+  7    TIME_ZONE_ID VARCHAR2(80),
+  8    CONSTRAINT QRTZ_CRON_TRIG_PK PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+  9    CONSTRAINT QRTZ_CRON_TRIG_TO_TRIG_FK FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+ 10  	 REFERENCES QRTZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+ 11  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_simprop_triggers
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    TRIGGER_NAME VARCHAR2(200) NOT NULL,
+  5    TRIGGER_GROUP VARCHAR2(200) NOT NULL,
+  6    STR_PROP_1 VARCHAR2(512) NULL,
+  7    STR_PROP_2 VARCHAR2(512) NULL,
+  8    STR_PROP_3 VARCHAR2(512) NULL,
+  9    INT_PROP_1 NUMBER(10) NULL,
+ 10    INT_PROP_2 NUMBER(10) NULL,
+ 11    LONG_PROP_1 NUMBER(13) NULL,
+ 12    LONG_PROP_2 NUMBER(13) NULL,
+ 13    DEC_PROP_1 NUMERIC(13,4) NULL,
+ 14    DEC_PROP_2 NUMERIC(13,4) NULL,
+ 15    BOOL_PROP_1 VARCHAR2(1) NULL,
+ 16    BOOL_PROP_2 VARCHAR2(1) NULL,
+ 17    CONSTRAINT QRTZ_SIMPROP_TRIG_PK PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+ 18    CONSTRAINT QRTZ_SIMPROP_TRIG_TO_TRIG_FK FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+ 19  	 REFERENCES QRTZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+ 20  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_blob_triggers
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    TRIGGER_NAME VARCHAR2(200) NOT NULL,
+  5    TRIGGER_GROUP VARCHAR2(200) NOT NULL,
+  6    BLOB_DATA BLOB NULL,
+  7    CONSTRAINT QRTZ_BLOB_TRIG_PK PRIMARY KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP),
+  8    CONSTRAINT QRTZ_BLOB_TRIG_TO_TRIG_FK FOREIGN KEY (SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+  9  	   REFERENCES QRTZ_TRIGGERS(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP)
+ 10  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_calendars
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    CALENDAR_NAME  VARCHAR2(200) NOT NULL,
+  5    CALENDAR BLOB NOT NULL,
+  6    CONSTRAINT QRTZ_CALENDARS_PK PRIMARY KEY (SCHED_NAME,CALENDAR_NAME)
+  7  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_paused_trigger_grps
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    TRIGGER_GROUP  VARCHAR2(200) NOT NULL,
+  5    CONSTRAINT QRTZ_PAUSED_TRIG_GRPS_PK PRIMARY KEY (SCHED_NAME,TRIGGER_GROUP)
+  6  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_fired_triggers
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    ENTRY_ID VARCHAR2(95) NOT NULL,
+  5    TRIGGER_NAME VARCHAR2(200) NOT NULL,
+  6    TRIGGER_GROUP VARCHAR2(200) NOT NULL,
+  7    INSTANCE_NAME VARCHAR2(200) NOT NULL,
+  8    FIRED_TIME NUMBER(13) NOT NULL,
+  9    SCHED_TIME NUMBER(13) NOT NULL,
+ 10    PRIORITY NUMBER(13) NOT NULL,
+ 11    STATE VARCHAR2(16) NOT NULL,
+ 12    JOB_NAME VARCHAR2(200) NULL,
+ 13    JOB_GROUP VARCHAR2(200) NULL,
+ 14    IS_NONCONCURRENT VARCHAR2(1) NULL,
+ 15    REQUESTS_RECOVERY VARCHAR2(1) NULL,
+ 16    CONSTRAINT QRTZ_FIRED_TRIGGER_PK PRIMARY KEY (SCHED_NAME,ENTRY_ID)
+ 17  );
+
+表已创建。
+
+SQL> 
+SQL> CREATE TABLE qrtz_scheduler_state
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    INSTANCE_NAME VARCHAR2(200) NOT NULL,
+  5    LAST_CHECKIN_TIME NUMBER(13) NOT NULL,
+  6    CHECKIN_INTERVAL NUMBER(13) NOT NULL,
+  7    CONSTRAINT QRTZ_SCHEDULER_STATE_PK PRIMARY KEY (SCHED_NAME,INSTANCE_NAME)
+  8  );
+
+表已创建。
+
+SQL> CREATE TABLE qrtz_locks
+  2  (
+  3    SCHED_NAME VARCHAR2(120) NOT NULL,
+  4    LOCK_NAME  VARCHAR2(40) NOT NULL,
+  5    CONSTRAINT QRTZ_LOCKS_PK PRIMARY KEY (SCHED_NAME,LOCK_NAME)
+  6  );
+
+表已创建。
+
+SQL> 
+SQL> create index idx_qrtz_j_req_recovery on qrtz_job_details(SCHED_NAME,REQUESTS_RECOVERY);
+
+索引已创建。
+
+SQL> create index idx_qrtz_j_grp on qrtz_job_details(SCHED_NAME,JOB_GROUP);
+
+索引已创建。
+
+SQL> 
+SQL> create index idx_qrtz_t_j on qrtz_triggers(SCHED_NAME,JOB_NAME,JOB_GROUP);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_jg on qrtz_triggers(SCHED_NAME,JOB_GROUP);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_c on qrtz_triggers(SCHED_NAME,CALENDAR_NAME);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_g on qrtz_triggers(SCHED_NAME,TRIGGER_GROUP);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_state on qrtz_triggers(SCHED_NAME,TRIGGER_STATE);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_n_state on qrtz_triggers(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP,TRIGGER_STATE);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_n_g_state on qrtz_triggers(SCHED_NAME,TRIGGER_GROUP,TRIGGER_STATE);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_next_fire_time on qrtz_triggers(SCHED_NAME,NEXT_FIRE_TIME);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_nft_st on qrtz_triggers(SCHED_NAME,TRIGGER_STATE,NEXT_FIRE_TIME);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_nft_misfire on qrtz_triggers(SCHED_NAME,MISFIRE_INSTR,NEXT_FIRE_TIME);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_nft_st_misfire on qrtz_triggers(SCHED_NAME,MISFIRE_INSTR,NEXT_FIRE_TIME,TRIGGER_STATE);
+
+索引已创建。
+
+SQL> create index idx_qrtz_t_nft_st_misfire_grp on qrtz_triggers(SCHED_NAME,MISFIRE_INSTR,NEXT_FIRE_TIME,TRIGGER_GROUP,TRIGGER_STATE);
+
+索引已创建。
+
+SQL> 
+SQL> create index idx_qrtz_ft_trig_inst_name on qrtz_fired_triggers(SCHED_NAME,INSTANCE_NAME);
+
+索引已创建。
+
+SQL> create index idx_qrtz_ft_inst_job_req_rcvry on qrtz_fired_triggers(SCHED_NAME,INSTANCE_NAME,REQUESTS_RECOVERY);
+
+索引已创建。
+
+SQL> create index idx_qrtz_ft_j_g on qrtz_fired_triggers(SCHED_NAME,JOB_NAME,JOB_GROUP);
+
+索引已创建。
+
+SQL> create index idx_qrtz_ft_jg on qrtz_fired_triggers(SCHED_NAME,JOB_GROUP);
+
+索引已创建。
+
+SQL> create index idx_qrtz_ft_t_g on qrtz_fired_triggers(SCHED_NAME,TRIGGER_NAME,TRIGGER_GROUP);
+
+索引已创建。
+
+SQL> create index idx_qrtz_ft_tg on qrtz_fired_triggers(SCHED_NAME,TRIGGER_GROUP);
+
+索引已创建。
+
+SQL> 
+SQL> 从 Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options 断开

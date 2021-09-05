@@ -1,0 +1,1 @@
+-- @@Init\TABLE_NAME.sql
